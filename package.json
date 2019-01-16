@@ -1,0 +1,43 @@
+{
+  "name": "tianyu-blog",
+  "version": "1.0.0",
+  "description": "A simple blog based on koa.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianyu666/tianyu-blog.git"
+  },
+  "keywords": [],
+  "author": "tianyu gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tianyu666/tianyu-blog/issues"
+  },
+  "homepage": "https://github.com/tianyu666/tianyu-blog#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "ejs": "^2.6.1",
+    "iconv-lite": "^0.4.23",
+    "koa": "^2.5.1",
+    "koa-66": "^1.0.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "less": "^3.0.4",
+    "log4js": "^2.10.0",
+    "moment": "^2.22.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
