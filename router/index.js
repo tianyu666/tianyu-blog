@@ -16,12 +16,12 @@ const router = new Router();
 router.mount('/api', require('./api/index.js'));
 
 router.get('/', async (ctx, next) => {
-  const date = await Service.getData();
-
   ctx.body = await ctx.render('index', {
     path: ctx.path,
     query: ctx.query,
-    data: date
+    data: {
+      title: '个人博客',
+    },
   });
   await next();
 });
